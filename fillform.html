@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill your details</title>
+    <link rel="stylesheet" href="/css/styles6.css">
+    <link rel="icon" href="/images/typewriter_icon (2).png">
+    <script src="/index.js"></script>
+</head>
+<body>
+    <!-- head section -->
+    <div class="header">
+        <nav>
+            <img src="/images/typewriter_icon (2).png" class="logo">
+            <ul>
+
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/buynow.html">ORDER NOW</a></li>
+                <li><a href="/CompanyBehind.html">ABOUT US</a></li>
+                <li><a href="/support.html">CONTACT US</a></li>
+            </ul>
+            <img src="/images/typewriter_icon (1).png" class="icon">
+        </nav>
+
+                               <!-- Form  -->
+      <div class="form">
+        <form>
+          <input type="hidden" name="form_sent" value="1" />
+          <fieldset>
+            <legend>Contact details</legend>
+            <div>
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" class="Fname" size="30" maxlength="50" placeholder="Enter Your First Name." required>
+            </div>
+            <br>
+            <div>
+            <label for="fName">Last Name:</label>
+            <input type="text" id="lName" name="lName" class="Lname" size="30" maxlength="50" placeholder="Enter Your First Name."required>
+            </div>
+            <br>
+            <div>
+              <label for="telephone">Telephone No.</label>
+              <input type="tel" id="telephone" name="telephone" class="phoneN"  max="14" placeholder="+1 XXXXXXXXXX" required>
+<!--               <input type="submit" id="submit" name="submit" value="submit"> -->
+            </div>
+          </fieldset>
+          <br>
+          <br>
+          <fieldset>
+            <legend>
+              Address
+            </legend>
+            <div>
+            <label for="address">Enter Your Full Address</label>
+            <textarea id="address" name="address" class="Add" rows="5" cols="30" required></textarea>
+          </fieldset>
+          <br><br>
+          <div>
+            <fieldset>
+              <legend>Do you want to order in bulk ?</legend>
+              <p>If you want to order in bulk please tick the below checkbox.</p>
+              <input type="checkbox" id="bulk" name="bulk" class="bulk_need">Yes, I need in Bulk.
+            </fieldset>
+          </div>
+          <br>
+          <br>
+          <fieldset>
+            <legend>Do you want to take Membership?</legend>
+            <input type="radio" id="yon" name="yon" class="member" value="Yes">Yes<br><br>
+            <input type="radio" id="yon" name="yon" class="member" value="No">No
+          </fieldset>
+          <button type="submit" id="Submitbtn"><a href="/Thankyou.html">submit</a></button>
+          </form>
+          </div>
+          </div>
+          
+          </body>
+          </html>

@@ -1,0 +1,80 @@
+/* the css for whole page */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background: #020412;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* css for head section for nav tag and logo and li till line 57 */
+.header {
+    height: 100vh;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+}
+/* positioning and styling the ul item */
+nav ul {
+    position: absolute;
+    top: 5%;
+    left: 28%;
+}
+
+/* styling li items */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+
+}
+
+/* styling the href links with text decoration none */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* adding a hover effect when and cursor set to pointer */
+nav ul li a:hover {
+    color: #fff724;
+    cursor: pointer;
+
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8% 50px;
+}
+p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4%;
+}
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 44%;
+    margin-top: 5%;
+}

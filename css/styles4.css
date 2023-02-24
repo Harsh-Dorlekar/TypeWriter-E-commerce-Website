@@ -1,0 +1,166 @@
+*{
+    background-color: black;
+}.header {
+    height: 100vh;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+
+}
+
+/* right top menu logo */
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+}
+
+/* left top logo */
+.icon {
+    width: 35px;
+    cursor: pointer;
+
+}
+
+/* positioning and styling the ul item */
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* styling li items */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+/* styling the href links with text decoration none */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* adding a hover effect when and cursor set to pointer */
+nav ul li a:hover {
+    color: #fff724;
+    cursor: pointer;
+}
+
+/* Factory Image styling */
+.factory_image{
+    display: block;
+    margin-left: 12%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+    margin-top: 40px;
+  }
+  /* Clearfix (clear floats) */
+.row::after {
+    
+    content: "";
+    clear: both;
+    display: table;
+}  
+.column p{
+    margin-left: 100px;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+p{
+    word-spacing: 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: justify;
+}
+/* Stying the footer */
+.footer {
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 27%;
+    padding: 0 35px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+/* This selector does not select the element after the last child element. It is mostly used to add the content after every child element except the last. */
+.footer-col ul li::not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+.video{
+    text-align: center;
+}
+.video button{
+    color: whitesmoke;
+    border-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+li{
+    cursor: pointer;
+}

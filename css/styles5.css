@@ -1,0 +1,225 @@
+*{
+    background-color: black;
+}.header {
+    height: 100vh;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 15px;
+
+}
+
+/* right top menu logo */
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+}
+
+/* left top logo */
+.icon {
+    width: 35px;
+    cursor: pointer;
+
+}
+
+/* positioning and styling the ul item */
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* styling li items */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 27px;
+
+}
+
+/* styling the href links with text decoration none */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* adding a hover effect when and cursor set to pointer */
+nav ul li a:hover {
+    color: #fff724;
+    cursor: pointer;
+} 
+  .column {
+    float: left;
+    width: 40%;
+    padding: 30px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Responsive
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    } */
+  h4{
+    text-align: center;
+    font-size: 35px;
+  }
+  .images{
+    border-radius: 5px;
+  }
+
+
+  /* added a buy now button who have 7px broder radius with a added transition effect when you hover over it it expands  */
+.buy_now{
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 100px;
+    height: 25px;
+    transition: width 1s, height 1s;
+}
+
+/* the styling of link after once clicked  */
+.buy_now:link, .buy_now:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* styling of button when the cursor hover overs it and the color of the text will change to burlywood */
+  .buy_now:hover, .buy_now:active {
+    background-color: burlywood;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-left: 24%;
+    padding: 10px 25px;
+      }
+      p{
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        font-size: 25px;
+        text-align: center;
+        
+}
+     /* added a buy now button who have 7px broder radius with a added transition effect when you hover over it it expands  */
+button{
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-left: 45%;
+    width: 150px;
+    font-size: 20px;
+    height: 45px;
+    transition: width 1s, height 1s;
+    cursor: pointer;
+}
+
+/* the styling of link after once clicked  */
+button:link, button:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  /* styling of button when the cursor hover overs it and the color of the text will change to burlywood */
+  button:hover, button:active {
+    background-color: burlywood;
+    color: white;
+    width: 300px;
+    height: 45px;
+    margin-left: 38%;
+}
+
+/* Stying the footer */
+.footer {
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 27%;
+    padding: 0 37px;
+}
+
+.footer-col h4 {
+    font: bold;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-right: 80%;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+/* This selector does not select the element after the last child element. It is mostly used to add the content after every child element except the last. */
+.footer-col ul li::not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+li{
+  cursor: pointer;
+}
+.labels{
+  text-align: center;
+  
+}

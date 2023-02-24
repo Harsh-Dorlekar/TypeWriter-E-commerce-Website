@@ -1,0 +1,127 @@
+* {    
+    background-color: black;
+    box-sizing: border-box;    
+  } 
+  .header {
+    height: 100vh;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+
+}
+
+/* right top menu logo */
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+}
+
+/* left top logo */
+.icon {
+    width: 35px;
+    cursor: pointer;
+
+}
+
+/* positioning and styling the ul item */
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* styling li items */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+/* styling the href links with text decoration none */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* adding a hover effect when and cursor set to pointer */
+nav ul li a:hover {
+    color: #fff724;
+    cursor: pointer;
+}   
+      h2{
+        text-align: center;
+      }
+  input[type=text], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+    color: whitesmoke;
+  }    
+  input[type=email], select, textarea {    
+    color: whitesmoke;
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+      
+  label {    
+    padding: 12px;    
+    display: inline-block;    
+  }    
+      
+  input[type=submit] {    
+    background-color: rgb(37, 116, 161);    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    margin-left: 50%;   
+    margin-top: 5%; 
+    margin-bottom: 5%;
+  }    
+      
+  input[type=submit]:hover {    
+    background-color: #45a049;    
+  }    
+      
+  .container {    
+    border-radius: 5px;    
+    background-color: #f2f2f2;    
+    padding: 20px;    
+  }    
+      
+  .col-25 {    
+    float: left;    
+    width: 25%;    
+    margin-top: 6px;    
+  }    
+      
+  .col-75 {    
+    float: left;    
+    width: 75%;    
+    margin-top: 6px;    
+  }    
+      
+  /* Clear floats after the columns */    
+  .row:after {    
+    content: "";    
+    display: table;    
+    clear: both;    
+  }    

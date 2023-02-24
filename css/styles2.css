@@ -1,0 +1,207 @@
+*{
+    background-color: black;
+    word-spacing: 2px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.header {
+    height: 100vh;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+
+}
+
+/* right top menu logo */
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+}
+
+/* left top logo */
+.icon {
+    width: 35px;
+    cursor: pointer;
+
+}
+
+/* positioning and styling the ul item */
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* styling li items */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+/* styling the href links with text decoration none */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* adding a hover effect when and cursor set to pointer */
+nav ul li a:hover {
+    color: #fff724;
+    cursor: pointer;
+
+}
+
+/* styling for the date section at right top of the page */
+h6 {
+    position: relative;
+    top: 2%;
+    font-size: 12px;
+}
+
+li{
+    cursor: pointer;
+}
+/* company name styling */
+.main h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+/* Main TypeWritter Image  */
+.main img {
+    margin-top: 2%;
+    margin-left: 13%;
+}
+
+/* figcaption styling */
+figcaption {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.text-box {
+    align-items: center;
+    margin-top: 10%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.text-box h1 {
+    font-size: 75px;
+    line-height: 140px;
+    font-family: 'Merriweather', serif;
+}
+
+.text-box a {
+    margin-top: 30px;
+    display: block;
+    border-radius: 6px;
+    ;
+    border: 2px solid black;
+    color: whitesmoke;
+    padding: 15px 90px;
+    text-decoration: none;
+}
+
+.text-box .btn {
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.text-box .btn:hover {
+    color: rgb(246, 147, 102);
+}
+
+
+/* the headline styling */
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/* aligning the imaes to center */
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Stying the footer */
+.footer {
+    padding: 70px 0;
+    
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 27%;
+    padding: 0 35px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    font-size: 20px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+/* This selector does not select the element after the last child element. It is mostly used to add the content after every child element except the last. */
+.footer-col ul li::not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}

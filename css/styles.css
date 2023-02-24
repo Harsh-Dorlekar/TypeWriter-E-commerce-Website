@@ -1,0 +1,243 @@
+/* the css for whole page */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background: #020412;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* css for head section for nav tag and logo and li till line 57 */
+.header {
+    height: 100vh;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+
+}
+
+/* right top menu logo */
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+}
+
+/* left top logo */
+.icon {
+    width: 35px;
+    cursor: pointer;
+
+}
+
+/* positioning and styling the ul item */
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* styling li items */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+/* styling the href links with text decoration none */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* adding a hover effect when and cursor set to pointer */
+nav ul li a:hover {
+    color: #fff724;
+    cursor: pointer;
+
+}
+
+/* styling for the date section at right top of the page */
+h6 {
+    position: relative;
+    top: 2%;
+    font-size: 12px;
+}
+
+/* company name styling */
+.main h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+/* Main TypeWritter Image  */
+.main img {
+    margin-top: 2%;
+    margin-left: 13%;
+}
+
+/* figcaption styling */
+figcaption {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.text-box {
+    align-items: center;
+    margin-top: 10%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.text-box h1 {
+    font-size: 75px;
+    line-height: 140px;
+    font-family: 'Merriweather', serif;
+}
+
+.text-box a {
+    margin-top: 30px;
+    display: block;
+    border-radius: 6px;
+    ;
+    border: 2px solid black;
+    color: whitesmoke;
+    padding: 15px 90px;
+    text-decoration: none;
+}
+
+.text-box .btn {
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.text-box .btn:hover {
+    color: rgb(246, 147, 102);
+}
+
+/* Stying the footer */
+.footer {
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 33%;
+    padding: 0 100px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+/* This selector does not select the element after the last child element. It is mostly used to add the content after every child element except the last. */
+.footer-col ul li::not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+/* Removing the Bullets */
+ul {
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+
+/* Resposnive */
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+/* added a buy now button who have 7px broder radius with a added transition effect when you hover over it it expands  */
+.buy_now{
+    border-radius: 7px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-left: 45%;
+    width: 150px;
+    height: 45px;
+    transition: width 1s, height 1s;
+}
+
+/* the styling of link after once clicked  */
+.buy_now:link, .buy_now:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* styling of button when the cursor hover overs it and the color of the text will change to burlywood */
+  .buy_now:hover, .buy_now:active {
+    background-color: burlywood;
+    color: white;
+    width: 300px;
+  height: 45px;
+  margin-left: 38%;
+      }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. Remington & Sons Ltd.</title>
+    <link rel="stylesheet" href="/css/styles4.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+    <link rel="icon" href="/images/typewriter_icon (2).png">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="/images/typewriter_icon (2).png" class="logo">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/buynow.html">ORDER NOW</a></li>
+                <li><a href="/CompanyBehind.html">ABOUT US</a></li>
+                <li><a href="/support.html">CONTACT US</a></li>
+            </ul>
+            <img src="/images/typewriter_icon (1).png" class="icon">
+        </nav>
+        <h2>E. Remington & Sons Ltd.</h2>
+        <div class="factory_image">
+            <img src="/images/Factory_image.png" alt="Fcatory Image" width="900px">
+        </div>
+        <hr>
+<h3>Take a look at the furtue!!</h3>
+<div class="video"> 
+    <button onclick="playPause()">Play/Pause</button> 
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br>
+    <video id="video1" width="500">
+      <source src="/images/future_video.mp4" type="video/mp4">
+      <source src="/images/future_video.mp4" type="video/ogg">
+      Your browser does not support HTML video.
+    </video>
+  </div>
+        <br>
+        <br><br>
+        <hr>
+        <div class="row">
+            <div class="column">
+              <img src="/images/Eliphalet_Remington.png" alt="Eliphalet Remington" width="600px" title="Eliphalet Remington" >
+            </div>
+            <div class="column">
+              <p><b>Mr. Eliphalet Remington</b></p>
+              <p>E. Remington & Sons supplied a large proportion of the small arms used by the United States government in the Civil War (1861 to 1865). In addition Remington is one of the most successful gun manufacturers in the world arms trade between 1867 and 1900, specifically through the export of the Remington Rolling Block action rifle. </p>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <!-- footer section same code from index.html  -->
+
+ <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/CompanyBehind.html"></a>About Us</li>
+                    <li><a href="#"></a>Our Services</li>
+                    <li><a href="#"></a>Privacy policy</li>
+                    <li><a href="#"></a>Affiliate programm</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="/support.html"></a>FAQ</li>
+                    <li><a href="/support.html"></a>Shipping</li>
+                    <li><a href="/support.html"></a>Returns</li>
+                    <li><a href="/support.html"></a>Order Status</li>
+                    <li><a href="/support.html"></a>Payment Option</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a><br>
+                    <a href="#"><i class="fab fa-twitter"></i></a><br>
+                    <a href="#"><i class="fab fa-instagram"></i></a><br>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- JavaScript section  -->
+        <script> 
+            var myVideo = document.getElementById("video1"); 
+            
+            function playPause() { 
+              if (myVideo.paused) 
+                myVideo.play(); 
+              else 
+                myVideo.pause(); 
+            } 
+            
+            function makeBig() { 
+                myVideo.width = 700; 
+            } 
+            
+            function makeSmall() { 
+                myVideo.width = 380; 
+            } 
+            
+            function makeNormal() { 
+                myVideo.width = 500; 
+            } 
+            </script> 
+        </body>
+        </html>
